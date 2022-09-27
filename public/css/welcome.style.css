@@ -1,0 +1,9 @@
+main {
+    display: grid;
+    place-content: center;
+}
+
+.welkom {
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,65 @@
+main {
+    display: grid;
+    place-content: center;
+}
+
+.create-form {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    color: white;
+    box-shadow: 5px 5px 20px #4c3a79;
+    border-radius: 15px;
+    padding: 20px;
+}
+.create-form h1 {
+    text-align: center;
+}
+
+table {
+    color: white;
+}
+
+table td {
+    padding: 10px;
+}
+
+label {
+    font-size: 15px;
+}
+
+input[type=text],input[type=date] {
+    width: 200px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    border: 3px solid #4c3a79;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 24 24"><path fill="white" d="M20 3h-1V1h-2v2H7V1H5v2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 18H4V8h16v13z"/></svg>');
+}
+
+.submit {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.submit input {
+    color: white;
+    background-color: #4c3a79;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.form-error {
+    color: red;
+    font-size: 10px;
+}

@@ -1,0 +1,65 @@
+main {
+    display: grid;
+    place-content: center;
+}
+
+.empty {
+    color: white;
+    text-align: center;
+}
+
+.add {
+    text-align: center;
+}
+
+.add a {
+    text-decoration: none;
+    color: white;
+    background-color: #4c3a79;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+table  {
+    border-collapse: collapse;
+    border-radius: 1em;
+    overflow: hidden;
+    color: white;
+    margin-bottom: 50px;
+}
+
+th, td {
+    padding: 15px;
+}
+
+
+tr:nth-child(even){background-color: #4a3c6e9a;}
+
+
+th {
+    font-size: 25px;
+    background-color: #4c3a79;
+}
+
+td {
+    font-size: 20px;
+}
+
+tr:hover {
+    background-color: #43346b;
+}
+
+.complete {
+    text-decoration: none;
+    color: white;
+    background-color: #4c3a79;
+    padding: 15px 15px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+td form {
+    margin: 0;
+}
